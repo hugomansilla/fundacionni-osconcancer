@@ -1,4 +1,5 @@
-body {
+@media only screen and (max-width: 600px) {
+ body {
  font-family: 'Ubuntu', sans-serif;
  background-color: #F0EBDF;
 }
@@ -24,7 +25,9 @@ nav ul li {
   padding-left: 20px;
   padding-right: 20px;
 }
-
+.ocultar{
+    display: none;
+}
 .encabezado img{
   width: 100%; 
 }
@@ -35,7 +38,7 @@ nav ul li {
 
 }
 .nosotros{
-  height: 400px;
+  height: 650px;
   text-align: center;
   background-color: white;
   margin-top: 50px;
@@ -62,20 +65,20 @@ nav ul li {
 }
 .cuadros{
   margin: 0px;
-  height: 650px;
+  height: 1900px;
   padding-top: 30px;
 }
 .noticias{
-  height: 300px;
+  height: 600px;
   box-sizing: border-box;
   text-decoration: center;
 }
 .actividades{
-  height: 300px;
+  height: 600px;
   box-sizing: border-box;
 }
 .recursos{
-  height: 300px;
+  height: 600px;
   box-sizing: border-box;
 }
 .mascontenido{
@@ -205,12 +208,25 @@ footer {
   width: 100%;
 }
 .nosotros2{
-  height: 600px; 
+  height: 500px; 
   background-color: #EA8859; 
   padding-top: 30px;
 }
-
-
+.nosotros3{
+  height: 200px; 
+  background-color: #EA8859; 
+  padding-top: 30px;
+}
+.nosotros4{
+  height: 200px; 
+  background-color: #EA8859; 
+  padding-top: 30px;
+}
+.nosotros5{
+  height: 400px; 
+  background-color: #EA8859; 
+  padding-top: 30px;
+}
 /*Pagina de donacion*/
 .completar{
   padding-top: 80px;
@@ -225,4 +241,260 @@ footer {
 .linea{
   border-left: solid 5px;
   border-left-color: #EA8859; 
+}
+
+.estilonav{
+  background-color: #000515;
+  font-size: 30px;
+}
+}
+
+@media (min-width: 600px) {
+   body {
+   font-family: 'Ubuntu', sans-serif;
+   background-color: #F0EBDF;
+  }
+  .cuadros img{
+    width: 100%;
+    height: 250px;
+  }
+  .barrafija{
+    background-color: #000515;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    text-align: right;
+  }
+  nav ul {
+    display: inline-block;
+  }
+
+  nav ul li {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .encabezado img{
+    width: 100%; 
+  }
+
+  .donar{
+    text-decoration: none; 
+    color: red;
+
+  }
+  .nosotros{
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+    font-size: 2rem;
+    padding-top: 50px;
+  }
+  .boton{
+    height: 40px;
+    width: 150px;
+    border-radius: 100%;
+  }
+  .boton1{
+    height: 40px;
+    width: 150px;
+  }
+  .donaciones{
+    background-color: white;
+    height: 400px;
+    text-align: center;
+    padding-top: 60px;
+  }
+  .donaya{
+    font-size: 5rem;
+  }
+  .cuadros{
+    margin: 0px;
+    height: 650px;
+    padding-top: 30px;
+  }
+  .noticias{
+    height: 300px;
+    box-sizing: border-box;
+    text-decoration: center;
+  }
+  .actividades{
+    height: 300px;
+    box-sizing: border-box;
+  }
+  .recursos{
+    height: 300px;
+    box-sizing: border-box;
+  }
+  .mascontenido{
+    padding: 0px;
+  }
+
+  a:link {text-decoration: none }
+
+  .cuadro1{
+    height:300px;
+    background-color: #EA8859; 
+    text-align: center;
+    padding-top: 100px;
+  }
+  .cuadro1:hover{
+    opacity: 0.5;
+  }
+  .cuadro2{
+    height:300px;
+    background-color: #EA8859; 
+    text-align: center;
+    padding-top: 100px;
+  }
+  .cuadro2:hover{
+    opacity: 0.5;
+    }
+  .cuadro3{
+    height:300px;
+    background-color: #EA8859; 
+    text-align: center;
+    padding-top: 100px;
+  }
+  .cuadro3:hover{
+    opacity: 0.5;
+    }
+  .cuadro4{
+    height:300px;
+    background-color: #EA8859; 
+    text-align: center;
+    padding-top: 100px;
+  }
+  .cuadro4:hover{
+    opacity: 0.5;
+    }
+  .redes{
+    height: 280px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .socialmedia{
+    padding-top: 30px;
+  }
+  .ultimo{
+    background-color: #000515;
+    padding-top: 20px;
+    color: white;
+  }
+  .colorboton{
+    color: black;
+  }
+  .centrar{
+    margin: 20px;
+  }
+  footer {
+    background-color: #000515;
+    text-align: center;
+  }
+
+  /* Style all font awesome icons */
+  .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 60px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  /* Facebook */
+  .fa-facebook {
+      background: #3B5998;
+      color: white;
+      text-align: center;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+      background: #55ACEE;
+      color: white;
+  }
+
+  /* Twitter */
+  .fa-google-plus {
+      background: #dd4b39;
+      color: white;
+  }
+
+  /*Sección de noticias */
+  .derecha{
+    background-color: #EA8859;
+    height: 230rem;
+    padding-top: 50px;
+  }
+  .izquierda img{
+    width: 100%;
+    height: 300px;
+  }
+  .izquierda{
+    background-color: #F0EBDF;
+    padding-top: 80px; 
+  }
+  .espacio{
+    padding: 40px 10px 40px 10px;
+  }
+  .list-group-item:hover{
+    opacity: 0.2;
+  }
+
+  /* Sección noticias*/
+  .nosotros1{
+    padding-top: 80px;
+  }
+  .nosotros1 img {
+    width: 100%;
+  }
+  .nosotros2{
+    height: 600px; 
+    background-color: #EA8859; 
+    padding-top: 30px;
+  }
+  .nosotros3{
+  height: 600px; 
+  background-color: #EA8859; 
+  padding-top: 30px;
+}
+.nosotros4{
+  height: 600px; 
+  background-color: #EA8859; 
+  padding-top: 30px;
+}
+.nosotros5{
+  height: 600px; 
+  background-color: #EA8859; 
+  padding-top: 30px;
+}
+
+  /*Pagina de donacion*/
+  .completar{
+    padding-top: 80px;
+  }
+  .formulario1{
+    margin-bottom: 10px;
+  }
+  .formulario2{
+    margin-bottom: 30px;
+  }
+
+  .linea{
+    border-left: solid 5px;
+    border-left-color: #EA8859; 
+  }
+
+  .estilonav{
+    background-color: #000515;
+    font-size: 30px;
+  }
 }

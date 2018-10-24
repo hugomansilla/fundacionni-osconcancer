@@ -21,17 +21,34 @@
 
 <body>
 <!-- Barra de navegacion fija-->
-	<nav class="barrafija">
-		<ul>
-			<li><a href="index.html">Inicio</a></li>	
-			<li><a href="nosotros.html">Nosotros</a></li>
-			<li><a href="noticias.html">Noticias</a></li>
-			<li><a href="donar.html" style="text-decoration: none; color: red;">Donar</a></li>
-		</ul>
-	</nav>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid estilonav">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header estilonav">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Fundación niño y cáncer</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right estilonav">
+        <li><a href="index.html" style="color: white;">Inicio</a></li>
+        <li><a href="nosotros.html" style="color: white;">Nosotros</a></li>
+        <li><a href="noticias.html" style="color: white;">Noticias</a></li>
+        <li><a href="donar.html" style="color: red;">Donar</a></li>        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 <!-- cuerpo del negocio-->
-	<section class="encabezado">
+	<section class="encabezado ocultar">
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
@@ -137,7 +154,7 @@
 
 <!-- Donaciones-->
 
-	<section class="donaciones col-md-12">
+	<section class="donaciones col-md-12 ocultar">
 		<h1 class="donaya">Contribuye a ayudar a los niños con cáncer</h1><br>
 		<p style="font-size: 2rem">Selecciona tus preferencias de donación</p><br>
 		<div class="btn-group" data-toggle="buttons">
